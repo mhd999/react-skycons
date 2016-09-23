@@ -32,7 +32,7 @@ var ReactSkycons = function (_Component) {
   function ReactSkycons(props) {
     _classCallCheck(this, ReactSkycons);
 
-    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(ReactSkycons).call(this, props));
+    var _this = _possibleConstructorReturn(this, (ReactSkycons.__proto__ || Object.getPrototypeOf(ReactSkycons)).call(this, props));
 
     _this.state = {
       skycons: new Skycons({ 'color': _this.props.color })
@@ -101,7 +101,7 @@ ReactSkycons.defaultProps = {
 ReactSkycons.propTypes = {
   color: _react.PropTypes.string,
   autoplay: _react.PropTypes.bool,
-  icon: _react.PropTypes.oneOf(['CLEAR_DAY', 'CLEAR_NIGHT', 'PARTLY_CLOUDY_DAY', 'PARTLY_CLOUDY_NIGHT', 'CLOUDY', 'RAIN', 'SLEET', 'SNOW', 'WIND', 'FOG'])
+  icon: _react.PropTypes.oneOf(['clear-day', 'clear-night', 'partly-cloudy-day', 'partly-cloudy-night', 'cloudy', 'rain', 'sleet', 'snow', 'wind', 'fog'])
 };
 
 exports.default = ReactSkycons;

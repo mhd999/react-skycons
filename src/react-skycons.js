@@ -65,16 +65,16 @@ ReactSkycons.propTypes = {
   color: PropTypes.string,
   autoplay: PropTypes.bool,
   icon: PropTypes.oneOf([
-    'CLEAR_DAY',
-    'CLEAR_NIGHT',
-    'PARTLY_CLOUDY_DAY',
-    'PARTLY_CLOUDY_NIGHT',
-    'CLOUDY',
-    'RAIN',
-    'SLEET',
-    'SNOW',
-    'WIND',
-    'FOG'
+    'clear-day',
+    'clear-night',
+    'partly-cloudy-day',
+    'partly-cloudy-night',
+    'cloudy',
+    'rain',
+    'sleet',
+    'snow',
+    'wind',
+    'fog'
   ])
 };
 
